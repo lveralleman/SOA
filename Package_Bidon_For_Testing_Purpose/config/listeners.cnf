@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <record name="listeners" javaclass="com.wm.util.Values">
+    <record name="FilePollingListener:D:\data\filepolling_bidon_for_testing_purpose" javaclass="com.wm.util.Values">
+      <value name="port">D:\data\filepolling_bidon_for_testing_purpose</value>
+      <value name="protocol">FilePolling</value>
+      <value name="pkg">Package_Bidon_For_Testing_Purpose</value>
+      <value name="enabled">false</value>
+      <value name="key">FilePollingListener:D:\data\filepolling_bidon_for_testing_purpose</value>
+      <value name="portAlias">Package_Bidon_For_Testing_Purpose</value>
+      <value name="portDescription">Package_Bidon_For_Testing_Purpose</value>
+      <value name="factoryKey">webMethods/FilePolling</value>
+      <value name="configURL">/WmFlatFile/configFilePolling.dsp</value>
+      <value name="provider">webMethods</value>
+      <value name="monitorDir">D:\data\filepolling_bidon_for_testing_purpose</value>
+      <value name="errorDir">D:\data\filepolling_bidon_for_testing_purpose\error</value>
+      <value name="recursive">no</value>
+      <value name="clusterEnabled">no</value>
+      <value name="cleanupAtStartup">yes</value>
+      <value name="runUser">Administrator</value>
+      <value name="processingService">Package_Bidon_For_Testing_Purpose.pub:test</value>
+      <value name="filePollingInterval">1</value>
+      <value name="logMinMessage">no</value>
+      <value name="NFSDirectories">no</value>
+      <value name="cleanUpFileAge">7</value>
+      <value name="cleanUpInterval">24</value>
+      <value name="maxThreads">1</value>
+      <value name="maxFilesPerCycle">-1</value>
+      <value name="lockFileExtension">.lock</value>
+    </record>
+  </record>
+  <record name="access" javaclass="com.wm.util.Values">
+    <record name="FilePollingListener:D:\data\filepolling_bidon_for_testing_purpose" javaclass="com.wm.util.Values">
+      <null name="home"/>
+      <value name="default">include</value>
+      <record name="nodes" javaclass="com.wm.util.StringSet">
+        <list name="elements">
+        </list>
+      </record>
+      <value name="key">FilePollingListener:D:\data\filepolling_bidon_for_testing_purpose</value>
+    </record>
+  </record>
+</Values>
